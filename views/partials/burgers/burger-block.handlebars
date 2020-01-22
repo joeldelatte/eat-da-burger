@@ -1,9 +1,11 @@
 <li>
-	{{burger_name}}
+	{{burger_name}} <br>
 
 	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
 		{{#if devour}}Try it now{{else}}Try again later{{/if}}
 	</button>
 
 	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+
+	<img href="https://images.unsplash.com/photo-1544037803-ed377ec9a75e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2714&q=80" id="burg-img">
 </li>
